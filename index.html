@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Official bilingual portfolio of a fourth-year Information Technology student for academic evaluation and job applications." />
+  <meta name="keywords" content="IT student portfolio, bilingual, Arabic, English, projects, skills" />
+  <meta name="author" content="Official IT Student Portfolio" />
+  <title>Official IT Student Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav">
+      <div class="logo" aria-label="Portfolio logo">IT Portfolio</div>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" data-i18n="nav.hero">Hero</a></li>
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#academics" data-i18n="nav.academics">Academics</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+        <li><a href="#training" data-i18n="nav.training">Training</a></li>
+        <li><a href="#soft-skills" data-i18n="nav.softSkills">Soft Skills</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <div class="header-actions">
+        <button class="toggle" id="language-toggle" aria-pressed="false">
+          <span data-i18n="toggle.language">العربية</span>
+        </button>
+        <button class="toggle" id="theme-toggle" aria-pressed="false">
+          <span data-i18n="toggle.theme">Dark</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="hero">
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="hero.greeting">Hello, I am</p>
+        <h1 data-i18n="hero.name">Hanan Almekhlafi</h1>
+        <h2 class="typing" aria-live="polite">
+          <span data-i18n="hero.title">Information Technology Student – Fourth Year</span>
+        </h2>
+        <p class="tagline" data-i18n="hero.tagline">
+          Building secure, user-centered digital solutions that connect people with technology.
+        </p>
+        <div class="cta-group">
+          <a class="btn primary" href="#contact" data-i18n="hero.ctaContact">Contact</a>
+          <a class="btn secondary" href="#projects" data-i18n="hero.ctaProjects">View Projects</a>
+          <a class="btn ghost" href="#" data-i18n="hero.ctaDownload">Download CV</a>
+        </div>
+        <div class="device-status" aria-live="polite">
+          <span data-i18n="hero.deviceLabel">Viewing on:</span>
+          <strong id="device-type">Desktop</strong>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-avatar" role="img" aria-label="Professional portrait placeholder"></div>
+        <ul class="hero-highlights">
+          <li data-i18n="hero.highlight1">Top 10% in academic performance</li>
+          <li data-i18n="hero.highlight2">Focused on full-stack development</li>
+          <li data-i18n="hero.highlight3">Available for internships</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-header">
+        <h2 data-i18n="about.title">About Me</h2>
+        <p data-i18n="about.subtitle">Academic journey, goals, and specialization overview.</p>
+      </div>
+      <div class="about-grid">
+        <div class="card reveal">
+          <h3 data-i18n="about.summaryTitle">Academic Summary</h3>
+          <p data-i18n="about.summaryText">
+            Fourth-year IT student with strong foundations in software engineering, data management, and web systems, consistently delivering high-quality coursework and team projects.
+          </p>
+        </div>
+        <div class="card reveal">
+          <h3 data-i18n="about.objectiveTitle">Career Objective</h3>
+          <p data-i18n="about.objectiveText">
+            To secure an internship or entry-level role where I can apply modern development practices, collaborate with multidisciplinary teams, and contribute to impactful digital products.
+          </p>
+        </div>
+        <div class="card reveal">
+          <h3 data-i18n="about.detailsTitle">University Details</h3>
+          <ul>
+            <li><strong data-i18n="about.university">University:</strong> <span data-i18n="about.universityValue">University of Technology</span></li>
+            <li><strong data-i18n="about.department">Department:</strong> <span data-i18n="about.departmentValue">Information Technology</span></li>
+            <li><strong data-i18n="about.year">Year:</strong> <span data-i18n="about.yearValue">Fourth Year</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="academics section" id="academics">
+      <div class="section-header">
+        <h2 data-i18n="academics.title">Academic Background</h2>
+        <p data-i18n="academics.subtitle">Core subjects and learning milestones.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <h3 data-i18n="academics.subject1">Data Structures</h3>
+          <p data-i18n="academics.subject1Desc">Optimized algorithms, complexity analysis, and efficient storage models.</p>
+        </article>
+        <article class="timeline-item reveal">
+          <h3 data-i18n="academics.subject2">Object-Oriented Programming</h3>
+          <p data-i18n="academics.subject2Desc">Encapsulation, inheritance, design patterns, and modular code architecture.</p>
+        </article>
+        <article class="timeline-item reveal">
+          <h3 data-i18n="academics.subject3">Databases</h3>
+          <p data-i18n="academics.subject3Desc">Relational modeling, SQL optimization, and database security.</p>
+        </article>
+        <article class="timeline-item reveal">
+          <h3 data-i18n="academics.subject4">Web Development</h3>
+          <p data-i18n="academics.subject4Desc">Responsive interfaces, client-server logic, and deployment readiness.</p>
+        </article>
+        <article class="timeline-item reveal">
+          <h3 data-i18n="academics.subject5">Software Engineering</h3>
+          <p data-i18n="academics.subject5Desc">Agile workflows, requirements engineering, and quality assurance.</p>
+        </article>
+        <article class="timeline-item reveal">
+          <h3 data-i18n="academics.subject6">Computer Networks</h3>
+          <p data-i18n="academics.subject6Desc">Network protocols, security layers, and infrastructure fundamentals.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-header">
+        <h2 data-i18n="skills.title">Technical Skills</h2>
+        <p data-i18n="skills.subtitle">Structured competencies with animated progress indicators.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h3 data-i18n="skills.languages">Programming Languages</h3>
+          <div class="skill" data-skill="90">
+            <span>JavaScript</span>
+            <div class="progress"><span></span></div>
+          </div>
+          <div class="skill" data-skill="85">
+            <span>Python</span>
+            <div class="progress"><span></span></div>
+          </div>
+          <div class="skill" data-skill="80">
+            <span>Java</span>
+            <div class="progress"><span></span></div>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3 data-i18n="skills.web">Web Technologies</h3>
+          <div class="skill" data-skill="92">
+            <span>HTML5 / CSS3</span>
+            <div class="progress"><span></span></div>
+          </div>
+          <div class="skill" data-skill="88">
+            <span>Responsive Design</span>
+            <div class="progress"><span></span></div>
+          </div>
+          <div class="skill" data-skill="75">
+            <span>Accessibility</span>
+            <div class="progress"><span></span></div>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3 data-i18n="skills.databases">Databases</h3>
+          <div class="skill" data-skill="82">
+            <span>MySQL</span>
+            <div class="progress"><span></span></div>
+          </div>
+          <div class="skill" data-skill="78">
+            <span>PostgreSQL</span>
+            <div class="progress"><span></span></div>
+          </div>
+          <div class="skill" data-skill="70">
+            <span>Firebase</span>
+            <div class="progress"><span></span></div>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3 data-i18n="skills.tools">Tools</h3>
+          <div class="skill" data-skill="85">
+            <span>Git & GitHub</span>
+            <div class="progress"><span></span></div>
+          </div>
+          <div class="skill" data-skill="80">
+            <span>Figma</span>
+            <div class="progress"><span></span></div>
+          </div>
+          <div class="skill" data-skill="78">
+            <span>VS Code</span>
+            <div class="progress"><span></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-header">
+        <h2 data-i18n="projects.title">Projects</h2>
+        <p data-i18n="projects.subtitle">Selected coursework and personal initiatives.</p>
+      </div>
+      <div class="filter-group" role="tablist" aria-label="Project filters">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true" data-i18n="projects.filterAll">All</button>
+        <button class="filter-btn" data-filter="web" role="tab" aria-selected="false" data-i18n="projects.filterWeb">Web</button>
+        <button class="filter-btn" data-filter="data" role="tab" aria-selected="false" data-i18n="projects.filterData">Data</button>
+        <button class="filter-btn" data-filter="network" role="tab" aria-selected="false" data-i18n="projects.filterNetwork">Network</button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal" data-category="web">
+          <img src="assets/images/project-1.svg" alt="Campus portal project preview" />
+          <div class="project-info">
+            <h3 data-i18n="projects.item1Title">Smart Campus Portal</h3>
+            <p data-i18n="projects.item1Desc">Responsive portal for academic services, announcements, and course management.</p>
+            <p class="tech" data-i18n="projects.tech">HTML, CSS, JavaScript</p>
+            <div class="project-links">
+              <a href="#" data-i18n="projects.github">GitHub</a>
+              <a href="#" data-i18n="projects.demo">Live Demo</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal" data-category="data">
+          <img src="assets/images/project-2.svg" alt="Data analytics project preview" />
+          <div class="project-info">
+            <h3 data-i18n="projects.item2Title">Student Performance Dashboard</h3>
+            <p data-i18n="projects.item2Desc">Interactive analytics dashboard to track KPIs and academic trends.</p>
+            <p class="tech" data-i18n="projects.tech">Python, SQL, Data Studio</p>
+            <div class="project-links">
+              <a href="#" data-i18n="projects.github">GitHub</a>
+              <a href="#" data-i18n="projects.demo">Live Demo</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal" data-category="network">
+          <img src="assets/images/project-3.svg" alt="Network monitoring project preview" />
+          <div class="project-info">
+            <h3 data-i18n="projects.item3Title">Secure Network Monitor</h3>
+            <p data-i18n="projects.item3Desc">Real-time monitoring tool with alerts and incident reporting workflow.</p>
+            <p class="tech" data-i18n="projects.tech">Linux, Wireshark, Python</p>
+            <div class="project-links">
+              <a href="#" data-i18n="projects.github">GitHub</a>
+              <a href="#" data-i18n="projects.demo">Live Demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="training section" id="training">
+      <div class="section-header">
+        <h2 data-i18n="training.title">Training & Certificates</h2>
+        <p data-i18n="training.subtitle">Professional development and verified learning.</p>
+      </div>
+      <div class="training-grid">
+        <div class="card reveal">
+          <h3 data-i18n="training.course1Title">Full-Stack Web Development</h3>
+          <p data-i18n="training.course1Desc">Intensive training covering client-side, server-side, and deployment workflows.</p>
+          <a href="#" class="link" data-i18n="training.viewCertificate">View Certificate</a>
+        </div>
+        <div class="card reveal">
+          <h3 data-i18n="training.course2Title">Cloud Fundamentals Workshop</h3>
+          <p data-i18n="training.course2Desc">Hands-on workshop on cloud services, storage, and security basics.</p>
+          <a href="#" class="link" data-i18n="training.viewCertificate">View Certificate</a>
+        </div>
+        <div class="card reveal">
+          <h3 data-i18n="training.course3Title">Cybersecurity Essentials</h3>
+          <p data-i18n="training.course3Desc">Practical understanding of threat models and defensive techniques.</p>
+          <a href="#" class="link" data-i18n="training.viewCertificate">View Certificate</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="soft-skills section" id="soft-skills">
+      <div class="section-header">
+        <h2 data-i18n="soft.title">Soft Skills</h2>
+        <p data-i18n="soft.subtitle">Professional behaviors and teamwork qualities.</p>
+      </div>
+      <div class="soft-grid">
+        <div class="chip reveal" data-i18n="soft.skill1">Problem Solving</div>
+        <div class="chip reveal" data-i18n="soft.skill2">Teamwork</div>
+        <div class="chip reveal" data-i18n="soft.skill3">Communication</div>
+        <div class="chip reveal" data-i18n="soft.skill4">Time Management</div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-header">
+        <h2 data-i18n="contact.title">Contact</h2>
+        <p data-i18n="contact.subtitle">Let’s connect for internships, projects, and collaborations.</p>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <label>
+            <span data-i18n="contact.name">Full Name</span>
+            <input type="text" name="name" required placeholder="Full Name" data-i18n-placeholder="contact.namePlaceholder" />
+          </label>
+          <label>
+            <span data-i18n="contact.email">Email</span>
+            <input type="email" name="email" required placeholder="Email address" data-i18n-placeholder="contact.emailPlaceholder" />
+          </label>
+          <label>
+            <span data-i18n="contact.message">Message</span>
+            <textarea name="message" rows="5" required placeholder="Your message" data-i18n-placeholder="contact.messagePlaceholder"></textarea>
+          </label>
+          <button class="btn primary" type="submit" data-i18n="contact.send">Send Message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+        <div class="contact-details reveal">
+          <div class="detail">
+            <h3 data-i18n="contact.emailLabel">Email</h3>
+            <a href="mailto:student@email.com">student@email.com</a>
+          </div>
+          <div class="detail">
+            <h3 data-i18n="contact.githubLabel">GitHub</h3>
+            <a href="https://github.com/" target="_blank" rel="noopener">github.com/it-student</a>
+          </div>
+          <div class="detail">
+            <h3 data-i18n="contact.linkedinLabel">LinkedIn</h3>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener">linkedin.com/in/it-student</a>
+          </div>
+          <div class="theme-panel">
+            <h3 data-i18n="theme.customize">Customize Theme</h3>
+            <div class="theme-inputs">
+              <label>
+                <span data-i18n="theme.primary">Primary</span>
+                <input type="color" id="primary-color" />
+              </label>
+              <label>
+                <span data-i18n="theme.secondary">Secondary</span>
+                <input type="color" id="secondary-color" />
+              </label>
+              <label>
+                <span data-i18n="theme.background">Background</span>
+                <input type="color" id="background-color" />
+              </label>
+              <label>
+                <span data-i18n="theme.text">Text</span>
+                <input type="color" id="text-color" />
+              </label>
+              <label>
+                <span data-i18n="theme.font">Font</span>
+                <select id="font-family">
+                  <option value="'Inter', 'Segoe UI', sans-serif">Inter</option>
+                  <option value="'Cairo', 'Segoe UI', sans-serif">Cairo</option>
+                  <option value="'Roboto', 'Segoe UI', sans-serif">Roboto</option>
+                </select>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="footer.copy">© 2024 Official IT Student Portfolio. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:student@email.com" data-i18n="footer.email">Email</a>
+    </div>
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

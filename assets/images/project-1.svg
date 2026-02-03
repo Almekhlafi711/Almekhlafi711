@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a73e8" />
+      <stop offset="1" stop-color="#00b894" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#g1)" />
+  <rect x="60" y="70" width="480" height="220" rx="18" fill="rgba(255,255,255,0.9)" />
+  <text x="300" y="170" text-anchor="middle" fill="#1b1f24" font-size="28" font-family="Inter, Arial, sans-serif">Campus Portal</text>
+  <text x="300" y="210" text-anchor="middle" fill="#5c6b82" font-size="18" font-family="Inter, Arial, sans-serif">Responsive Web Experience</text>
+</svg>
