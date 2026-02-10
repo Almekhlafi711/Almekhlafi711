@@ -1,0 +1,27 @@
+:root {
+  --accent-light: #1e3a8a;
+  --accent-dark: #eab308;
+}
+body { font-family: 'Poppins', sans-serif; }
+.font-ar { font-family: 'Cairo', sans-serif; }
+.font-en { font-family: 'Poppins', sans-serif; }
+h1,h2,h3,h4 { font-style: italic; font-weight: 700; }
+.nav-link { padding: .45rem .65rem; border-radius: .5rem; transition: .25s ease; }
+.nav-link:hover { background: rgba(30,58,138,.12); }
+.dark .nav-link:hover { background: rgba(234,179,8,.15); }
+.active-link { background: rgba(30,58,138,.15); color: var(--accent-light); }
+.dark .active-link { background: rgba(234,179,8,.2); color: var(--accent-dark); }
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.dark .card { box-shadow: 0 10px 30px rgba(234, 179, 8, 0.10); }
+.card:hover { transform: translateY(-4px); }
+.btn-primary {
+  background: var(--accent-light);
+  color: #fff;
+  border-radius: .7rem;
+  padding: .65rem 1rem;
+}
+.dark .btn-primary { background: var(--accent-dark); color: #111; }
